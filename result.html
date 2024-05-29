@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="quiz-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Srikrrishn's Quiz Game</h1>
+    </header>
+    <main>
+        <div id="result-container">
+            <div id="result-header">
+                <h2>Quiz Completed!</h2>
+                <p>Congratulations on finishing the quiz.</p>
+            </div>
+            <div id="score-details">
+                <h3 id="finalScore"></h3>
+                <div id="score-breakdown">
+                    <p>Total Questions: <span id="total-questions"></span></p>
+                    <p>Correct Answers: <span id="correct-answers"></span></p>
+                    <p>Incorrect Answers: <span id="incorrect-answers"></span></p>
+                </div>
+            </div>
+            <div id="result-actions">
+                <a href="index.html" class="result-btn">Home</a>
+                <a href="quiz.html" class="result-btn" id="retry">Try Again</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Srikrrishn C.</p>
+    </footer>
+    <script src="result-script.js"></script>
+</body>
+</html>
